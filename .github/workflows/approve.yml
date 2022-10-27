@@ -17,7 +17,7 @@ jobs:
       - uses: trstringer/manual-approval@v1
         with:
           secret: ${{ github.TOKEN }}
-          approvers: MrGandhe, sparshbaurasi
+          approvers: MrGandhe,sparshbaurasi
           issue-title: "staging-test"
       - name: Deploy to production
         run: echo deploying
