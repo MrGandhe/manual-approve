@@ -18,6 +18,6 @@ jobs:
         with:
           secret: ${{ github.TOKEN }}
           approvers: MrGandhe
-          issue-title: "staging"
+          issue-title: "staging-test"
       - name: Deploy to production
         run: echo deploying
